@@ -1,0 +1,122 @@
+.TODO {
+  margin-top: 7vh;
+  margin-left: 10vh;
+  width: 100%;
+  height: 5vh;
+  background-color: white;
+}
+
+.parent {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: rgb(206, 206, 206);
+  height: 10vh;
+  width: 120vh;
+  margin: 5vh;
+  border: 1px solid black;
+}
+
+.input {
+  margin: 2vh;
+}
+
+input {
+  height: 5vh;
+  width: 87vh;
+  padding-left: 3vh;
+  font-size: 18px;
+}
+
+.button-new {
+  background-color: rgb(44, 139, 168);
+  height: 5vh;
+  width: 17vh;
+  border-radius: 1vh;
+  margin-left: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+.tasks {
+  background-color: lightgray;
+  margin: 5vh;
+  height: 100vh;
+  width: 120vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.parent2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.chores {
+  background-color: white;
+  height: 6vh;
+  width: 87vh;
+  margin: 2vh;
+  padding-left: 3vh;
+  padding-top: 1vh;
+  font-size: 18px;
+}
+
+.completeButton {
+  height: 5vh;
+  width: 17vh;
+  border-radius: 1vh;
+  margin-left: 2vh;
+  background-color: gray;
+  margin-right: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.delete {
+  font-weight: bold;
+  font-size: 1.2em;
+  height: 3vh;
+  width: 2vh;
+  cursor: pointer;
+}
+
+.completed {
+  background-color: lightgray;
+  margin: 5vh;
+  height: 100vh;
+  width: 120vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.chores2 {
+  background-color: rgb(255, 255, 255);
+  height: 6vh;
+  width: 100vh;
+  margin: 2vh;
+  padding-left: 3vh;
+  padding-top: 1vh;
+  font-size: 18px;
+}
+
+.title {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(73, 73, 73);
+}
